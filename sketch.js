@@ -67,6 +67,10 @@ function draw() {
   text(" 200 ", 560, 550);
   text(" 200 ", 640, 550);
   text(" 200 ", 720, 550);
+ 
+  fill("yellow");
+  strokeWeight(3);
+  rect(400,450,width,5);
 
   Engine.update(engine); 
   
